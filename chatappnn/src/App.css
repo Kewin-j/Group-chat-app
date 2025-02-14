@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.chat-box {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.chat-message {
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.chat-message.sent {
+  background-color: #daf8cb;
+  align-self: flex-end;
+}
+
+.chat-message.received {
+  background-color: #f1f1f1;
+}
+
+.timestamp {
+  font-size: 0.75em;
+  color: gray;
+  margin-left: 10px;
+
+}
+
+.aa{
+  margin-top:25px;
+  margin-bottom: 25px;
+}
+
+.bb{
+  margin-left: 10px;
+  background-color:rgb(35, 220, 35);
+}
+
+.dd{
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(170, 170, 214);
+}
+
+.ff{
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(225, 228, 33);
+}
